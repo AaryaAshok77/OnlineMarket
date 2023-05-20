@@ -43,7 +43,8 @@ INSTALLED_APPS = [
     #pass=administrator7
     'core',
     'item',
-    'dashboard'
+    'dashboard',
+    'conversation',
 ]
 
 MIDDLEWARE = [
