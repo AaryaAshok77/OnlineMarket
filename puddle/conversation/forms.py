@@ -2,9 +2,9 @@ from django import forms
 
 from .models import ConversationMessage
 
-class ConversationMessageForm(forms.MOdelForm):
+class ConversationMessageForm(forms.ModelForm):
     class Meta:
-        models = ConversationMessage
+        model = ConversationMessage
         fields = ('content', )
         widgets = {
             'content': forms.Textarea(attrs={
